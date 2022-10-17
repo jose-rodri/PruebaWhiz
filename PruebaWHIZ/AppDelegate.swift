@@ -17,11 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
    
         FirebaseApp.configure()
-//        window = UIWindow(frame: UIScreen.main.bounds)
-//        window?.windowScene = windowsScene
-//        let initialViewController = MovieListRouter.createModule(usingNavigationFactory: NavigationBuilder.Builder)
-//        window?.rootViewController = initialViewController
-//        window?.makeKeyAndVisible()
+
         
         return true
     }

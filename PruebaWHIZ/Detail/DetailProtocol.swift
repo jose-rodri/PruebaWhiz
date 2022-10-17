@@ -15,13 +15,12 @@ protocol DetailPresenterToViewProtocol: class {
     var icImage: UIImageView! { get set }
     var labelDescription: UILabel! { get set }
     
-    func passData(str: String)
-
+  
 
 }
 
 protocol DetailInteractorToPresenterProtocol: class {
-    func fetchedDataSuccess(str: String)
+    func fetchedDataSuccess()
     func fetchedDataError()
 }
 
@@ -39,7 +38,7 @@ protocol DetailViewToPresenterProtocol: class {
     var data: Movie? { get set }
     
     func updateView()
-    func gotoDetail(data: String)
+  
 }
 
 protocol  DetailPresenterToRouterProtocol: class {

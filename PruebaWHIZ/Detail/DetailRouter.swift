@@ -30,12 +30,6 @@ class DetailRouter : DetailPresenterToRouterProtocol {
         
     }
 
-//    static var mainStoryBoard: UIStoryboard {
-//        return UIStoryboard(name: "DetailViewController", bundle: Bundle.main)
-//    }
-    
-    
-
     
     
 }

@@ -10,7 +10,6 @@ import Foundation
 
 struct Constant {
     static let apiKey = "&api_key=f46b58478f489737ad5a4651a4b25079"
-   // static let apiKey = "?api_key=d29f8413f9771468bec36f0835710e87"
     
     struct URL {
         static let Base = "https://api.themoviedb.org/"

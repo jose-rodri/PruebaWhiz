@@ -14,7 +14,7 @@ class  DetailInteractor : DetailPresenterToInteractorProtocol {
     var presenter:  DetailInteractorToPresenterProtocol?
     
     func prepareResponseForModel(str: String) {
-        self.presenter?.fetchedDataSuccess(str: str)
+        self.presenter?.fetchedDataSuccess()
     }
     
     

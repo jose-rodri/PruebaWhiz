@@ -30,9 +30,6 @@ class DetailViewController: UIViewController {
 }
    
 extension DetailViewController :  DetailPresenterToViewProtocol {
-    func passData(str: String){
-        print("get: \(str)")
-        //self.data = str
-    }
+    
     
 }

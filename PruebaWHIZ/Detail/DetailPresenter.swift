@@ -38,15 +38,13 @@ class DetailPresenter :   DetailViewToPresenterProtocol{
       
     }
     
-    func gotoDetail(data: String) {
-        print("click gotoDetail ===> \(data)")
-    }
+    
 }
 
 
 extension  DetailPresenter :  DetailInteractorToPresenterProtocol {
-    func fetchedDataSuccess(str: String) {
-        self.view?.passData(str: str)
+    func fetchedDataSuccess() {
+       
     }
     
     func fetchedDataError() {
