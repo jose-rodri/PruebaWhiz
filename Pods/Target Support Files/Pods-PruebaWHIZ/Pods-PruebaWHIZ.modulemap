@@ -1,0 +1,6 @@
+framework module Pods_PruebaWHIZ {
+  umbrella header "Pods-PruebaWHIZ-umbrella.h"
+
+  export *
+  module * { export * }
+}

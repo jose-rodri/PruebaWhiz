@@ -6,14 +6,23 @@
 //
 
 import UIKit
-
+import Firebase
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+   
+        FirebaseApp.configure()
+//        window = UIWindow(frame: UIScreen.main.bounds)
+//        window?.windowScene = windowsScene
+//        let initialViewController = MovieListRouter.createModule(usingNavigationFactory: NavigationBuilder.Builder)
+//        window?.rootViewController = initialViewController
+//        window?.makeKeyAndVisible()
+        
         return true
     }
 
